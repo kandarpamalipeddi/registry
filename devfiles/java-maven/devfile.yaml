@@ -5,7 +5,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/eclipse/che-java11-maven:nightly
+      image: registry.redhat.io/codeready-workspaces/plugin-java11-openj9-rhel8
       memoryLimit: 512Mi
       mountSources: true
       endpoints:
